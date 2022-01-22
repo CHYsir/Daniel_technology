@@ -34,7 +34,6 @@ C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Doma
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\bin\Debug\net6.0\Daniel_technology.Domain.pdb
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\bin\Debug\net6.0\Daniel_technology.Domain.Shared.dll
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\bin\Debug\net6.0\Daniel_technology.Domain.Shared.pdb
-C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\obj\Debug\net6.0\Daniel_technology.Domain.csproj.AssemblyReference.cache
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\obj\Debug\net6.0\Daniel_technology.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\obj\Debug\net6.0\Daniel_technology.Domain.AssemblyInfoInputs.cache
 C:\Users\huawei\Desktop\Daniel_technology\aspnet-core\src\Daniel_technology.Domain\obj\Debug\net6.0\Daniel_technology.Domain.AssemblyInfo.cs
