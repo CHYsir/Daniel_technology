@@ -1,0 +1,2428 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Daniel_technology.Domain/1.0.0": {
+        "dependencies": {
+          "Daniel_technology.Domain.Shared": "1.0.0",
+          "Volo.Abp.AuditLogging.Domain": "5.1.2",
+          "Volo.Abp.BackgroundJobs.Domain": "5.1.2",
+          "Volo.Abp.Emailing": "5.1.2",
+          "Volo.Abp.FeatureManagement.Domain": "5.1.2",
+          "Volo.Abp.Identity.Domain": "5.1.2",
+          "Volo.Abp.IdentityServer.Domain": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain.Identity": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain.IdentityServer": "5.1.2",
+          "Volo.Abp.SettingManagement.Domain": "5.1.2",
+          "Volo.Abp.TenantManagement.Domain": "5.1.2"
+        },
+        "runtime": {
+          "Daniel_technology.Domain.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "IdentityModel/4.4.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "IdentityServer4/4.1.2": {
+        "dependencies": {
+          "IdentityModel": "4.4.0",
+          "IdentityServer4.Storage": "4.1.2",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.6.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/IdentityServer4.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.1.2.0"
+          }
+        }
+      },
+      "IdentityServer4.AspNetIdentity/4.1.1": {
+        "dependencies": {
+          "IdentityServer4": "4.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/IdentityServer4.AspNetIdentity.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "IdentityServer4.Storage/4.1.2": {
+        "dependencies": {
+          "IdentityModel": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.1.2.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.2.0.0",
+            "fileVersion": "2021.2.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56601"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {},
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.0": {},
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "System.Text.Json": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Composite/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/6.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Localization/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/5.6.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.6.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/5.6.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "5.6.0",
+          "Microsoft.IdentityModel.Tokens": "5.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.6.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "5.6.0",
+          "Newtonsoft.Json": "13.0.1",
+          "System.IdentityModel.Tokens.Jwt": "5.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.6.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "5.6.0",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Nito.AsyncEx.Context/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Context.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Coordination/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.0",
+          "Nito.Collections.Deque": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Coordination.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Tasks/5.1.0": {
+        "dependencies": {
+          "Nito.Disposables": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Tasks.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.Collections.Deque/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Nito.Collections.Deque.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Nito.Disposables/2.2.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Nito.Disposables.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Scriban/4.0.2": {
+        "runtime": {
+          "lib/net5.0/Scriban.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.6.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "5.6.0",
+          "Microsoft.IdentityModel.Tokens": "5.6.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Dynamic.Core/1.2.12": {
+        "runtime": {
+          "lib/net5.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.12.0",
+            "fileVersion": "1.2.12.0"
+          }
+        }
+      },
+      "System.Linq.Expressions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.ObjectModel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.Loader/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Cng/4.5.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "Volo.Abp.Auditing/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Auditing.Contracts": "5.1.2",
+          "Volo.Abp.Data": "5.1.2",
+          "Volo.Abp.Json": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.Security": "5.1.2",
+          "Volo.Abp.Threading": "5.1.2",
+          "Volo.Abp.Timing": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Auditing.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Auditing.Contracts/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Auditing.Contracts.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.AuditLogging.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.AuditLogging.Domain.Shared": "5.1.2",
+          "Volo.Abp.Auditing": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.AuditLogging.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Authorization/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "5.1.2",
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.Security": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Authorization.Abstractions/5.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.0",
+          "Volo.Abp.MultiTenancy": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Authorization.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.AutoMapper/5.1.2": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Volo.Abp.Auditing": "5.1.2",
+          "Volo.Abp.ObjectExtending": "5.1.2",
+          "Volo.Abp.ObjectMapping": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.AutoMapper.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.BackgroundJobs/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.BackgroundJobs.Abstractions": "5.1.2",
+          "Volo.Abp.BackgroundWorkers": "5.1.2",
+          "Volo.Abp.DistributedLocking.Abstractions": "5.1.2",
+          "Volo.Abp.Guids": "5.1.2",
+          "Volo.Abp.Timing": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.BackgroundJobs.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Json": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.BackgroundJobs.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.AutoMapper": "5.1.2",
+          "Volo.Abp.BackgroundJobs": "5.1.2",
+          "Volo.Abp.BackgroundJobs.Domain.Shared": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.BackgroundJobs.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.BackgroundWorkers/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Threading": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundWorkers.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Caching/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Volo.Abp.Json": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.Serialization": "5.1.2",
+          "Volo.Abp.Threading": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Caching.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Core/5.1.2": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.2.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "6.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "6.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "Nito.AsyncEx.Context": "5.1.0",
+          "Nito.AsyncEx.Coordination": "5.1.0",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Linq.Dynamic.Core": "1.2.12",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Runtime.Loader": "4.3.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Core.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Data/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.EventBus.Abstractions": "5.1.2",
+          "Volo.Abp.ObjectExtending": "5.1.2",
+          "Volo.Abp.Uow": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Data.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Ddd.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Auditing": "5.1.2",
+          "Volo.Abp.Data": "5.1.2",
+          "Volo.Abp.EventBus": "5.1.2",
+          "Volo.Abp.ExceptionHandling": "5.1.2",
+          "Volo.Abp.Guids": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.ObjectMapping": "5.1.2",
+          "Volo.Abp.Specifications": "5.1.2",
+          "Volo.Abp.Threading": "5.1.2",
+          "Volo.Abp.Timing": "5.1.2",
+          "Volo.Abp.Uow": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.DistributedLocking.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.DistributedLocking.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Emailing/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.BackgroundJobs.Abstractions": "5.1.2",
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.Settings": "5.1.2",
+          "Volo.Abp.TextTemplating": "5.1.2",
+          "Volo.Abp.VirtualFileSystem": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Emailing.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.EventBus/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.BackgroundWorkers": "5.1.2",
+          "Volo.Abp.DistributedLocking.Abstractions": "5.1.2",
+          "Volo.Abp.EventBus.Abstractions": "5.1.2",
+          "Volo.Abp.Guids": "5.1.2",
+          "Volo.Abp.Json": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.EventBus.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.EventBus.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.EventBus.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.ExceptionHandling/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Localization": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.FeatureManagement.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Caching": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.FeatureManagement.Domain.Shared": "5.1.2",
+          "Volo.Abp.Features": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.FeatureManagement.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.FeatureManagement.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.FeatureManagement.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Features/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "5.1.2",
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Features.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Guids/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Guids.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Identity.Domain/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "6.0.0",
+          "Volo.Abp.AutoMapper": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.Identity.Domain.Shared": "5.1.2",
+          "Volo.Abp.Users.Domain": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Identity.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Features": "5.1.2",
+          "Volo.Abp.Users.Domain.Shared": "5.1.2",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.IdentityServer.Domain/5.1.2": {
+        "dependencies": {
+          "IdentityServer4": "4.1.2",
+          "IdentityServer4.AspNetIdentity": "4.1.1",
+          "Volo.Abp.AutoMapper": "5.1.2",
+          "Volo.Abp.BackgroundWorkers": "5.1.2",
+          "Volo.Abp.Caching": "5.1.2",
+          "Volo.Abp.Identity.Domain": "5.1.2",
+          "Volo.Abp.IdentityServer.Domain.Shared": "5.1.2",
+          "Volo.Abp.Security": "5.1.2",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/net6.0/Volo.Abp.IdentityServer.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.IdentityServer.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.IdentityServer.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Json/5.1.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Volo.Abp.ObjectExtending": "5.1.2",
+          "Volo.Abp.Timing": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Json.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Localization/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "5.1.2",
+          "Volo.Abp.Settings": "5.1.2",
+          "Volo.Abp.VirtualFileSystem": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Localization.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Localization.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.MultiTenancy/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Data": "5.1.2",
+          "Volo.Abp.EventBus.Abstractions": "5.1.2",
+          "Volo.Abp.Security": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.ObjectExtending/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "5.1.2",
+          "Volo.Abp.Validation.Abstractions": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.ObjectMapping/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ObjectMapping.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Authorization": "5.1.2",
+          "Volo.Abp.Caching": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.Json": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.Domain.Identity/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Identity.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.Domain.IdentityServer/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.IdentityServer.Domain.Shared": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Security/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Security.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Serialization/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Serialization.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Caching": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.SettingManagement.Domain.Shared": "5.1.2",
+          "Volo.Abp.Settings": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.SettingManagement.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Features": "5.1.2",
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.SettingManagement.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Settings/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.Security": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Settings.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Specifications/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Specifications.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.TenantManagement.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.AutoMapper": "5.1.2",
+          "Volo.Abp.Caching": "5.1.2",
+          "Volo.Abp.Data": "5.1.2",
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2",
+          "Volo.Abp.TenantManagement.Domain.Shared": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TenantManagement.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.TenantManagement.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.Validation": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TenantManagement.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.TextTemplating.Scriban": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating.Core/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "5.1.2",
+          "Volo.Abp.VirtualFileSystem": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating.Scriban/5.1.2": {
+        "dependencies": {
+          "Scriban": "4.0.2",
+          "Volo.Abp.TextTemplating.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Threading/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Threading.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Timing/5.1.2": {
+        "dependencies": {
+          "TimeZoneConverter": "3.5.0",
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.Settings": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Timing.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Uow/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Uow.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Users.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.EventBus": "5.1.2",
+          "Volo.Abp.MultiTenancy": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Users.Domain/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Ddd.Domain": "5.1.2",
+          "Volo.Abp.Users.Abstractions": "5.1.2",
+          "Volo.Abp.Users.Domain.Shared": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Users.Domain.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Users.Domain.Shared/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Validation/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Localization": "5.1.2",
+          "Volo.Abp.Validation.Abstractions": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Validation.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.Validation.Abstractions/5.1.2": {
+        "dependencies": {
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Volo.Abp.VirtualFileSystem/5.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Composite": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Volo.Abp.Core": "5.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Daniel_technology.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Volo.Abp.AuditLogging.Domain.Shared": "5.1.2",
+          "Volo.Abp.BackgroundJobs.Domain.Shared": "5.1.2",
+          "Volo.Abp.FeatureManagement.Domain.Shared": "5.1.2",
+          "Volo.Abp.Identity.Domain.Shared": "5.1.2",
+          "Volo.Abp.IdentityServer.Domain.Shared": "5.1.2",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "5.1.2",
+          "Volo.Abp.SettingManagement.Domain.Shared": "5.1.2",
+          "Volo.Abp.TenantManagement.Domain.Shared": "5.1.2"
+        },
+        "runtime": {
+          "Daniel_technology.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Daniel_technology.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "IdentityModel/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b18wrIx5wnZlMxAX7oVsE+nDtAJ4hajYlH0xPlaRvo4r/fz08K6pPeZvbiqS9nfNbzfIgLFmNX+FL9qR9ZR5PA==",
+      "path": "identitymodel/4.4.0",
+      "hashPath": "identitymodel.4.4.0.nupkg.sha512"
+    },
+    "IdentityServer4/4.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-blaxxGuOA7v/w1q+fxn97wZ+x2ecG1ZD4mc/N/ZOXMNeFZZhqv+4LF26Gecyik3nWrJPmbMEtQbLmRsKG8k61w==",
+      "path": "identityserver4/4.1.2",
+      "hashPath": "identityserver4.4.1.2.nupkg.sha512"
+    },
+    "IdentityServer4.AspNetIdentity/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lOLVj6VMezSK1UX9/tffW7doJ+Mw7dgAY3shaOvtNAQIJMLUAiFGimc3YEgAunC+vU0Lo1ZKGaqgHEM3N6H/fA==",
+      "path": "identityserver4.aspnetidentity/4.1.1",
+      "hashPath": "identityserver4.aspnetidentity.4.1.1.nupkg.sha512"
+    },
+    "IdentityServer4.Storage/4.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KoSffyZyyeCNTIyJiZnCuPakJ1QbCHlpty6gbWUj/7yl+w0PXIchgmmJnJSvddzBb8iZ2xew/vGlxWUIP17P2g==",
+      "path": "identityserver4.storage/4.1.2",
+      "hashPath": "identityserver4.storage.4.1.2.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kKSyoVfndMriKHLfYGmr0uzQuI4jcc3TKGyww7buJFCYeHb/X0kodYBPL7n9454q7v6ASiRmDgpPGaDGerg/Hg==",
+      "path": "jetbrains.annotations/2021.2.0",
+      "hashPath": "jetbrains.annotations.2021.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1cAQYUTU8EfRqwc5/rfTns4E4hKlFlg59fuKRrST+PzsxI6H07KqRN/JjdYhAuVYxF8jPnIGbj+zuc5paOWUw==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.0",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HPEhmNwINXzGVWirzmvVxx5/GkoaQJC7vKNIbhOUTzgnRHEf2zO6S2s4lMw3TPFWBGcAlfn6Ta0cVB9f15QC8w==",
+      "path": "microsoft.aspnetcore.authorization/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZWFBiHwkmipr+7t3MEPa7oB/iE8Kf5wvUptn9AXj7P7l/tGHEmRb1606Mlh/e2zkYwfjNGDH4Z5dUUlcnyccIw==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CcYIcGn/zJFY0zq84V4r9Xd4aQn2/+8tsiRBYnhS/LVgWNDq7EsWxmLJ+bXWBBdpTHA+IKvXTag9YElFKFHWYQ==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-giBCvjANLIOqC+DJ84zCkCQnE4ebRTrgVyBe5e0gG3/F8GYzdqSSdtMSAvbOkBQsf0F8dySBPSM59vX6ksOeQg==",
+      "path": "microsoft.aspnetcore.metadata/6.0.0",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ve3BlCzhAlVp5IgO3+8dacAhZk1A0GlIlFNkAcfR2TfAibLKWIt5DhVJZfu4YtW+XZ89OjYf/agMcgjDtPxdGA==",
+      "path": "microsoft.extensions.caching.memory/6.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+      "path": "microsoft.extensions.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3nL1qCkZ1Oxx14ZTzgo4MmlO7tso7F+TtMZAY2jUAtTLyAcDp+EDjk3RqafoKiNaePyPvvlleEcBxh3b2Hzl1g==",
+      "path": "microsoft.extensions.configuration.commandline/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DjYkzqvhiHCq38LW71PcIxXk6nhtV6VySP9yDcSO0goPl7YCU1VG1f2Wbgy58lkA10pWkjHCblZPUyboCB93ZA==",
+      "path": "microsoft.extensions.configuration.environmentvariables/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.environmentvariables.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V4Dth2cYMZpw3HhGw9XUDIijpI6gN+22LDt0AhufIgOppCUfpWX4483OmN+dFXRJkJLc8Tv0Q8QK+1ingT2+KQ==",
+      "path": "microsoft.extensions.configuration.fileextensions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GJGery6QytCzS/BxJ96klgG9in3uH26KcUBbiVG/coNDXCRq6LGVVlUT4vXq34KPuM+R2av+LeYdX9h4IZOCUg==",
+      "path": "microsoft.extensions.configuration.json/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.json.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.UserSecrets/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lB0Hb2V4+RUHy+LjEcqEr4EcV4RWc9EnjAV2GdtWQEdljQX+R4hGREftI7sInU9okP93pDrJiaj6QUJ6ZsslOA==",
+      "path": "microsoft.extensions.configuration.usersecrets/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.usersecrets.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Composite/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cx8K9xnN95wbvKa/KTyDBVBaNUsS9L8IkKt2dKMkcyj0wOBe+xVMwyNR4ySmpxBK3b0PuP7tW6UtroXIlRC3uQ==",
+      "path": "microsoft.extensions.fileproviders.composite/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.composite.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9uQbDTqX1MidhoZFUSK1JItt74IapEadFDOIWAlBIKxr3O/ZEWLWkLYGlgUeP1Dkyog6/CB7h1EAU3xADYZ/lA==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QvkL7l0nM8udt3gfyu0Vw8bbCXblxaKOl7c2oBfgGy4LCURRaL9XWZX1FWJrQc43oMokVneVxH38iz+bY1sbhg==",
+      "path": "microsoft.extensions.fileproviders.physical/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ip8jnL1aPiaPeKINCqaTEbvBFDmVx9dXQEBZ2HOBRXPD1eabGNqP/bKlsIcp7U2lGxiXd5xIhoFcmY8nM4Hdiw==",
+      "path": "microsoft.extensions.filesystemglobbing/6.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Core/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-coWZViIBVb1szN3zMMa6KYP9KmJzOniwQ5tySbiFmVW6Nbdy1KuNDNzIKQcigmfqS4aLWVvNLGCFyDJWYskS8g==",
+      "path": "microsoft.extensions.identity.core/6.0.0",
+      "hashPath": "microsoft.extensions.identity.core.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WS/BXvYSh0yGAXvKYvqGLzmhe4raIxmsLwd3pqg0T/zmTMy44PFiTbJm41F2GcPsv3zAV34jcs5aPjjE8td8bA==",
+      "path": "microsoft.extensions.localization/6.0.0",
+      "hashPath": "microsoft.extensions.localization.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UQJmE78r414kbguPmvbT6MIz0r8LPsBhjLNOlpXOP1VVjaSIuUMATfAve8Q+oivwNG3Mnv+5OLZHfaBkB4SuUg==",
+      "path": "microsoft.extensions.localization.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.localization.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
+      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0q0U1W+gX1jmfmv7uU7GXFGB518atmSwucxsVwPGpuaGS3jwd2tUi+Gau+ezxR6oAFEBFKG9lz/fxRZzGMeDXg==",
+      "path": "microsoft.identitymodel.jsonwebtokens/5.6.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEDrfEVW5x5w2hbTV94WwAcWvtue5hNTXYqoPh3ypF6U8csm09JazEYy+VPp2RtczkyMfcsvWY9Fea17e+isYQ==",
+      "path": "microsoft.identitymodel.logging/5.6.0",
+      "hashPath": "microsoft.identitymodel.logging.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ei7YqYx0pIFL6JjK8ZnPK0MXZRWUNHtJPUl3KqSvj9+2f5CMa6GRSEC+BMDHr17tP6yujYUg0IQOcKzmC7qN5g==",
+      "path": "microsoft.identitymodel.protocols/5.6.0",
+      "hashPath": "microsoft.identitymodel.protocols.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yh3n+uXiwpBy/5+t67tYcmRxb9kwQdaKRyG/DNipRMF37bg5Jr0vENOo1BQz6OySMl5WIK544SzPjtr7/KkucA==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/5.6.0",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C3OqR3QfBQ7wcC7yAsdMQqay87OsV6yWPYG/Ai3n7dvmWIGkouQhXoVxRP0xz3cAFL4hxZBXyw4aLTC421PaMg==",
+      "path": "microsoft.identitymodel.tokens/5.6.0",
+      "hashPath": "microsoft.identitymodel.tokens.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Context/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EE7M37c5E/kvulzEkpUR6v1AnK34b2wysOLJHSjl78p/3hL7grte0XCPRqCfLZDwq98AD9GHMTCRfZy7TEeHhw==",
+      "path": "nito.asyncex.context/5.1.0",
+      "hashPath": "nito.asyncex.context.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Coordination/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nv+oA+cSxidjOImiKcz2FJgMIDxiK0A6xormKmsUklUBjTNqQpjtdJsACMgTQG56PkTHdbMi5QijPTTUsmcCeg==",
+      "path": "nito.asyncex.coordination/5.1.0",
+      "hashPath": "nito.asyncex.coordination.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Tasks/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tU3Ib4zs8ivM+uS8n7F7ReWZlA3mODyLqwPE+v+WJI94hZ8xLXl+a9npfj/IcmeXo9a6fGKLWkswKQHOeTWqwA==",
+      "path": "nito.asyncex.tasks/5.1.0",
+      "hashPath": "nito.asyncex.tasks.5.1.0.nupkg.sha512"
+    },
+    "Nito.Collections.Deque/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RXHe531Oaw2IathDr0Q2kbid0iuudBxtgZsfBZ2eUPuFI8I1P7HMiuUeaIefqYykcDYFTDQsFAPAljduIjihLA==",
+      "path": "nito.collections.deque/1.1.0",
+      "hashPath": "nito.collections.deque.1.1.0.nupkg.sha512"
+    },
+    "Nito.Disposables/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QcL+uBwUCEoK8GKp/WzjdCiG8/3G1WLlVNJgLJUNG7bIIVAcEV+Mro4s53VT4Nd8xMSplv0gy+Priw44vRvLaA==",
+      "path": "nito.disposables/2.2.0",
+      "hashPath": "nito.disposables.2.2.0.nupkg.sha512"
+    },
+    "Scriban/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z158Aa3Xty3LT6Iwut3bm/ZfyvxPa9w1CcSBVCddRVkOeS5YIZlnzFTrMv00gdlBPN4tI7j1qQqdw3W01xPSjw==",
+      "path": "scriban/4.0.2",
+      "hashPath": "scriban.4.0.2.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMvPpX4exs2fe7Upq5zHMSR4yupc+jy8WG8yjucZL0XvT+r/T0hRvLIe9fP/SeN8/UVxFYBRAkRI5k1zbRGqmA==",
+      "path": "system.identitymodel.tokens.jwt/5.6.0",
+      "hashPath": "system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wJDLhidcJnLAJeZ4z10YVAxMm4rTW0zlYmUjriJTo4eGLHD5NKZOm6qFabkn5TinbfZ6LM9LeYFPyiQMpRly3Q==",
+      "path": "system.linq.dynamic.core/1.2.12",
+      "hashPath": "system.linq.dynamic.core.1.2.12.nupkg.sha512"
+    },
+    "System.Linq.Expressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
+      "path": "system.linq.expressions/4.3.0",
+      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "path": "system.linq.queryable/4.3.0",
+      "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.ObjectModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
+      "path": "system.objectmodel/4.3.0",
+      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
+      "path": "system.reflection.extensions/4.3.0",
+      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
+      "path": "system.reflection.typeextensions/4.3.0",
+      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Loader/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+      "path": "system.security.cryptography.cng/4.5.0",
+      "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "path": "system.text.json/6.0.0",
+      "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "TimeZoneConverter/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziTcQ5rVxRdtWJEnEqhKBukZGuUQregbf5G7QRrFKj6CwBLss5tSz0dlSHy9gzi5M5ES0PNQ0K2ACP/0XVT5Ow==",
+      "path": "timezoneconverter/3.5.0",
+      "hashPath": "timezoneconverter.3.5.0.nupkg.sha512"
+    },
+    "Volo.Abp.Auditing/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MuxG/9M1fqfDGOBTACxbVAUVVptlTBUfFTP02oWAUrHBhkMsDQJT1LEwLDz+7EDaiYmIkP5Vq/+5ZBvyE/VSPw==",
+      "path": "volo.abp.auditing/5.1.2",
+      "hashPath": "volo.abp.auditing.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Auditing.Contracts/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2BwFULnfi59TkuZ0rp8gkbe4xKDysOubGB9LbG1Je5WHzvmzymCKKHDAniQPkO63ZeAqvnoZJlphV7KFRmDuw==",
+      "path": "volo.abp.auditing.contracts/5.1.2",
+      "hashPath": "volo.abp.auditing.contracts.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.AuditLogging.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E1kTLl/TuukPnjMZNdxXLE4Mheb7Hi1IlgK7caJtNc96++uXGl+5OVYmjpFWN71Gj3XB1AS/dKfJ57WfhN9D3A==",
+      "path": "volo.abp.auditlogging.domain/5.1.2",
+      "hashPath": "volo.abp.auditlogging.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.AuditLogging.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lt2b7dirk9h6fIkDx/ci8CktJROkntcQ92gWHv9MHIOT+dMaS4oU7Imrc1bbouQAw/F/XLECI+3aR0Lj/Oq35Q==",
+      "path": "volo.abp.auditlogging.domain.shared/5.1.2",
+      "hashPath": "volo.abp.auditlogging.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Authorization/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sT8bAZpHrDlPAmi0dsYJ1t6BB3Rr/DXG2SrbSIkH4c40EQFLN6NsI193tSbc/jZBkGyCghUs/T/84y7lB2j5jQ==",
+      "path": "volo.abp.authorization/5.1.2",
+      "hashPath": "volo.abp.authorization.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Authorization.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-isiL/cDwENIBsDt2SIodG3dRxTvH/ptvRMYvN0V+q3K/q2o+wwyKJzMg82FqCNVT9gQSs7YAfFa9P4FxkmQczg==",
+      "path": "volo.abp.authorization.abstractions/5.1.2",
+      "hashPath": "volo.abp.authorization.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.AutoMapper/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/+hz0bDXPXqSwGZyOCBnFTJ+mDgH+8WjAp1MYhZYKJVg2ppHCZcUaHX48k+9q6xtWXcbOJ5ryHK0sX8NxZPGuA==",
+      "path": "volo.abp.automapper/5.1.2",
+      "hashPath": "volo.abp.automapper.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.BackgroundJobs/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SYR8iNbgq87z6docFKcoeGweTVU+rZUQzw8eM5tkts4TEjIQv7e+Ac3hy3lU93hUeG7VVG++GEWwRX4eEyYIWQ==",
+      "path": "volo.abp.backgroundjobs/5.1.2",
+      "hashPath": "volo.abp.backgroundjobs.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.BackgroundJobs.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DASKxQpVs75+G3OzpYN7DTA1h1wJVfXJmo2XI+GQDlQcXgoNT8x1uGg+Tofa9hadViyVQVP9USp2V8dE8UQ8Sw==",
+      "path": "volo.abp.backgroundjobs.abstractions/5.1.2",
+      "hashPath": "volo.abp.backgroundjobs.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.BackgroundJobs.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SiaplPRQ7JjqNVxUhF4jjm6AVsd5KJT5N8E5Fhn0vKlwraPxVa8iC0tt74OHQe/+gcYoky6ACIqX6FDBSCTwlA==",
+      "path": "volo.abp.backgroundjobs.domain/5.1.2",
+      "hashPath": "volo.abp.backgroundjobs.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.BackgroundJobs.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uRmmeEU7nndLWUpRq2z7i40RWVlopdFQ0PtB+8eMveBHVxKvIEzp0eUgqEvGE9FZV8tWUi4M8HhWqrukKF44/w==",
+      "path": "volo.abp.backgroundjobs.domain.shared/5.1.2",
+      "hashPath": "volo.abp.backgroundjobs.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.BackgroundWorkers/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aGG2fNGWKGckQYAqb7PbVOR5d/J+TiewQVJwmRz8QCLSXb7Knvx0hHe+Mg7JNTRiZ5tvRkVUcMECci7YdRrtDA==",
+      "path": "volo.abp.backgroundworkers/5.1.2",
+      "hashPath": "volo.abp.backgroundworkers.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Caching/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LLamQa0BmVIIwF9pHravPMnD/W/T8cF/lb4rfqQyjgbe86RaKxllhgFZIScXdPyAWSePzxSbo3cKZmwwmQNcVg==",
+      "path": "volo.abp.caching/5.1.2",
+      "hashPath": "volo.abp.caching.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Core/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E4isB+S1+lnqbnKSb6tAm4yWFpH9namP22i6mPSSdeWcWGNYVP80aXyMXsKNSFjn5CyCaa4bikDQX4RhrjlYZw==",
+      "path": "volo.abp.core/5.1.2",
+      "hashPath": "volo.abp.core.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Data/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PpccW1VcVP3YZL8uC/GguLuSMWXx0fsL+ZmJi6fCdRvtVT+n9QNG4qMBGyEjCgkoiTshaw8Yxu8m8iXM4ia68g==",
+      "path": "volo.abp.data/5.1.2",
+      "hashPath": "volo.abp.data.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Ddd.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ba0HT1odep5400mDsqDJPRJ11pUNuuau0LL6q+7yee4zHkZzGHaOB6/66oe3/pkVBhKba/KIXOt+4XCs41FhWA==",
+      "path": "volo.abp.ddd.domain/5.1.2",
+      "hashPath": "volo.abp.ddd.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.DistributedLocking.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NIocjAiQpf2rqht2M0hcu843jiovHx5mIiXICZ4ftRBc72FOMe9Bri5ZUA7ElqzLw0oRRpY9nqWnZkmJjkwn4g==",
+      "path": "volo.abp.distributedlocking.abstractions/5.1.2",
+      "hashPath": "volo.abp.distributedlocking.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Emailing/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zxgYRhgh3oBgxwCnDVZT0i93Vc3H6pbHnXuuayBmcaCpL42cm/n1bCpA0WRXxT8nKPT1EH1FzY5UOeYS6YsXww==",
+      "path": "volo.abp.emailing/5.1.2",
+      "hashPath": "volo.abp.emailing.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.EventBus/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PoCXk9BCv3Gc4+GRWS28YyRwu6nLcmbw1I+doke2FVHbrTRFUelANexOyLFGE1UWD0FUMq1zFtxqfs2DkgBkRw==",
+      "path": "volo.abp.eventbus/5.1.2",
+      "hashPath": "volo.abp.eventbus.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.EventBus.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c+SMfq9Cs+chR7Tm9UVX+4omJMpqO5NV3i1cXEwb9ioLr3Ldx2FKlhFX7Orn8lCAQkn9L4SF76nyVcgW+k9D+Q==",
+      "path": "volo.abp.eventbus.abstractions/5.1.2",
+      "hashPath": "volo.abp.eventbus.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.ExceptionHandling/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zx21xoIg+ZFMi4XWTI3u6t5+jgYYbeMeCmonXAz/spGpsyvKLsZXByPiwzf/JHHMhEYzZ492Gb07bZXngMN2pw==",
+      "path": "volo.abp.exceptionhandling/5.1.2",
+      "hashPath": "volo.abp.exceptionhandling.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.FeatureManagement.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LM94Y9667MZRFWw9Byg/1PZydhxYgTIWRho7KX9tEkncVMbd4lbprRYWpG9kKrvIBgpApWXoUQFzj9boskNkEg==",
+      "path": "volo.abp.featuremanagement.domain/5.1.2",
+      "hashPath": "volo.abp.featuremanagement.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.FeatureManagement.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NLPAoScC8jiZm6HvcsuGxD5xr3qC2zfEbqtgXTKxsNmklxCeQyA0JNWD4gXVS7YcAAma0QIt1qfnBZStAuVSOw==",
+      "path": "volo.abp.featuremanagement.domain.shared/5.1.2",
+      "hashPath": "volo.abp.featuremanagement.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Features/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tNS0qa1QF3VymZsZgnqLocL4k/NWyIUx3e7mg9sGUZ0Jdkc/mFocuZ1zyTcyH+AAfLz/RZXF3r2xAv4punOFBw==",
+      "path": "volo.abp.features/5.1.2",
+      "hashPath": "volo.abp.features.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Guids/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TLQgPSW/FiBl18MdmR/jFeB7DPReSnGDtHhByRtE3/IzBafTqDEk67UprL038TS+fLE1niLZEQZkTgpoLe2NfA==",
+      "path": "volo.abp.guids/5.1.2",
+      "hashPath": "volo.abp.guids.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Identity.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k3dF4YshFtWxNhNQmL9jtyuFiNvpTWhR8KFRMDgxKJF32g5q9KmqkUQMylK28erfFgj5h6Vtc5DVid1sY9AlXw==",
+      "path": "volo.abp.identity.domain/5.1.2",
+      "hashPath": "volo.abp.identity.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Identity.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQ4QkwFiWzRjpKRCJE8ecfPDobmyeauMl1oYsDLJsYSnBdhLW5E8ZMhRg8WS7XfHzdUMgq6RArd4PUx+SsK3rw==",
+      "path": "volo.abp.identity.domain.shared/5.1.2",
+      "hashPath": "volo.abp.identity.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.IdentityServer.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-psvuwc9mn40RNxNligA3pWNy8TxT0SyH1wjTiyDsPXdqPocKtIj7P2tXhH6EW7MBIQimPXOxF8NDwL5jGiPjdw==",
+      "path": "volo.abp.identityserver.domain/5.1.2",
+      "hashPath": "volo.abp.identityserver.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.IdentityServer.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2VrOuLwRkBmyP6WG65j7Y9M1owHDIENke9n7BeF6GbP6YQGUg/j6ygJsa91Q7fyvU2m4U3iLLfd3pDd4uo/epQ==",
+      "path": "volo.abp.identityserver.domain.shared/5.1.2",
+      "hashPath": "volo.abp.identityserver.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Json/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0PbXYCKNW/ee3yk9EQe1TOaCs7sT7LLMdM5alquGOTGVAQkYCmCuCDRI+IO5Ue9LSKMBGB+mittaeQ48JYhEGA==",
+      "path": "volo.abp.json/5.1.2",
+      "hashPath": "volo.abp.json.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Localization/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Baif/n5GbHBGB/7fasSWsqAzaBmXg06eK8fOyfrD8wk1zmpIXBVEpvDUc99EpxWr1ykgpFAdJIGc2MFG5zts+A==",
+      "path": "volo.abp.localization/5.1.2",
+      "hashPath": "volo.abp.localization.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Localization.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2WHeoQdOKoMakOKqJDJIFQswsHxykTbTBNbj6d9bfu24VlPMVkC4McKbf0k9iaURViFBGoJpNheeMNmhaknC7A==",
+      "path": "volo.abp.localization.abstractions/5.1.2",
+      "hashPath": "volo.abp.localization.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.MultiTenancy/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tEFVV6ynTrNGjaTGnpQ5Wuu51mUM6v8dd/d+ALU/xArZ8F9KHFVE5nmq7Cz2vtFNo5KOSINNdUH/23NW1mUxuw==",
+      "path": "volo.abp.multitenancy/5.1.2",
+      "hashPath": "volo.abp.multitenancy.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.ObjectExtending/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jSNFhxtNx5JiI2xy5ByDjL7dI/HKGeXshmECvwOaReoHiGzK5dwDHkWCDso1n6amt1R8J8CgPK3Zgk+Pg+Ldpw==",
+      "path": "volo.abp.objectextending/5.1.2",
+      "hashPath": "volo.abp.objectextending.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.ObjectMapping/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HJmFCoOo83ZFcqmbi0Z9UYBZmxwblcR6AMta8cdR5A4wcnm0ZHb0hkrkinsLcsHAS8fjmjiqEuhssdqQWL5MWQ==",
+      "path": "volo.abp.objectmapping/5.1.2",
+      "hashPath": "volo.abp.objectmapping.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.PermissionManagement.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L903Rdnhk2dId9UVF9Jcif66jVdV3+OgkACmNP6Ueub5NHoK8ylU7MZE2zjJuz+gAG4o2B9lJfJVBrBg294DQg==",
+      "path": "volo.abp.permissionmanagement.domain/5.1.2",
+      "hashPath": "volo.abp.permissionmanagement.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.PermissionManagement.Domain.Identity/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bMy5Ju5TZ+IQSbYoPy/qF6E5hoYUV1AzE+KMamctMYGZLwjarxTJV4KruER7TbHBPo570pTpDhr5vmemzykVag==",
+      "path": "volo.abp.permissionmanagement.domain.identity/5.1.2",
+      "hashPath": "volo.abp.permissionmanagement.domain.identity.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.PermissionManagement.Domain.IdentityServer/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mInMFiQaUabzsRDxGQcNZAh0pKbzCsWAoxAhFpW4t4YZiQfdsayUbjPiDcHpq+gGoheLdqItKQQfFEbYv1NYtA==",
+      "path": "volo.abp.permissionmanagement.domain.identityserver/5.1.2",
+      "hashPath": "volo.abp.permissionmanagement.domain.identityserver.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.PermissionManagement.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P145HdGGMUQZXQpnli7WbLEtXlQGqsKvVrfzzOk2Pev4JcRpWxzagHUJemuplA9sILHBccqFAyzhQg3bie+urA==",
+      "path": "volo.abp.permissionmanagement.domain.shared/5.1.2",
+      "hashPath": "volo.abp.permissionmanagement.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Security/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R1c+WYbygP6Ca9iE5bgJ1YuXlXffRPI/AGbF+bb9+985QYqco+R6F23NIBZh8En7l2yvEwBVe4qfsNVQLGvNOg==",
+      "path": "volo.abp.security/5.1.2",
+      "hashPath": "volo.abp.security.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Serialization/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDZjwvXYQfTqfhpRQFSfh5GxPdI8+wsNR63Ki3BuNBsuvk1M6Kiiw2fAmOme/S6JqsVcCYqQu7/PcUSCPPGWoA==",
+      "path": "volo.abp.serialization/5.1.2",
+      "hashPath": "volo.abp.serialization.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.SettingManagement.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPj8NmA7n659/ahIL04FfuxOokUWPIt+dJ3GURKe347Bn/ztX7grM9fKMSJi+M1EsqOXHUMompto9bxT/M+B8w==",
+      "path": "volo.abp.settingmanagement.domain/5.1.2",
+      "hashPath": "volo.abp.settingmanagement.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.SettingManagement.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v4wGo6Z9ON3898qS2ehjJlYl5JicOn1iAlDfXQSZs3CMzGb4rY/wwxdtR4saE/qQBb2ti/nAFSeIVs6+eD+EIA==",
+      "path": "volo.abp.settingmanagement.domain.shared/5.1.2",
+      "hashPath": "volo.abp.settingmanagement.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Settings/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1RyaO1kDxjH+fT5XfwEx2NGdTf+CyY26fa9KHbnybpVzgDOpqw7Y0V8LC2cJCYmdsFFDt/Al4cEAULMUOe44Sg==",
+      "path": "volo.abp.settings/5.1.2",
+      "hashPath": "volo.abp.settings.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Specifications/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eKHuVUqLASeZ96uzydr4oieDBl+vrLkVSop9ytIjAqtXu+mcYlWP0VQEuuz2QG8MdyVaTY/l9lg8TnMXOuB69Q==",
+      "path": "volo.abp.specifications/5.1.2",
+      "hashPath": "volo.abp.specifications.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.TenantManagement.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qaUp/eKT47tuXCbkt+2uOKfO7oAsv8tpKwJarQt6D1BG8dO6WlGZwP9WAUq5PfeGB8I0Ius9zFo1+14kosvYUQ==",
+      "path": "volo.abp.tenantmanagement.domain/5.1.2",
+      "hashPath": "volo.abp.tenantmanagement.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.TenantManagement.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xgDBECBk0P/pfoenrgkUob2/C/vAgPyG5XmUeYGrv894/i2PVbKVqm9dTmSRfSuZ7HqoAbdKIJsU91jZVtZT+A==",
+      "path": "volo.abp.tenantmanagement.domain.shared/5.1.2",
+      "hashPath": "volo.abp.tenantmanagement.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Abw0nWNnZSPv1uUfWtOoyXDozwK9bpTjSIV0xbiH+Ik857/YBRPcFD93xH5ybAivdXw1kXwT/Hdu2vlz1PaujQ==",
+      "path": "volo.abp.texttemplating/5.1.2",
+      "hashPath": "volo.abp.texttemplating.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating.Core/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v/LzJOQ8OQ5Qt1SjWDSsjBU8TGyXsWXQZ3GywYLmiT/jGYVGQFsbmD4LtbJPYHwLbdvFeRft4ndHCJmRH2Jn0Q==",
+      "path": "volo.abp.texttemplating.core/5.1.2",
+      "hashPath": "volo.abp.texttemplating.core.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating.Scriban/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3j5RG9wAh80M/lMQy7KxOgxX/CByhhhsobSoB06X2SuWcJkNPmh4uiqT0y/fJFUU2kQND1xM01n9EUArqTvrGg==",
+      "path": "volo.abp.texttemplating.scriban/5.1.2",
+      "hashPath": "volo.abp.texttemplating.scriban.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Threading/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+4DdaGltfcgjX32Mo6oHAJ26DDhcLfjID+RFk/XuwkZ0WIwsJGROnFg1Xut86cktCHknkCawrZoWd8czZctiaw==",
+      "path": "volo.abp.threading/5.1.2",
+      "hashPath": "volo.abp.threading.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Timing/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nZixkejqwBwLAfekoAvOighghH6/IRwOXn1hqBUri799aSWR2oKCkmISIFGgQz/7Gre2zrAcd7cloyLExFggcw==",
+      "path": "volo.abp.timing/5.1.2",
+      "hashPath": "volo.abp.timing.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Uow/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Jn+WGXY8kw7ZD8pnV3tVIWOFYnnExI4OtSX5MaoffsDkMY6wKLbnOLGyRKlEGeTOT+li5Im2oOBwmZnTJ4dgg==",
+      "path": "volo.abp.uow/5.1.2",
+      "hashPath": "volo.abp.uow.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Users.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kv2u7bo0vuu0Bb3/Ik5IMP40dpSxzOg0flMzLjsS+PVl95hlggp6qfQhMPYD92PH2tWTmVpxXQfo/u+55TUzjw==",
+      "path": "volo.abp.users.abstractions/5.1.2",
+      "hashPath": "volo.abp.users.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Users.Domain/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MaVX+15jaEAk14EQilxH9EVVptoa29OlWqMciP0ucpmvKjvG/RNccraZ8iZXQ1OYhdyFdwMs0gHcuxIgZjtHLw==",
+      "path": "volo.abp.users.domain/5.1.2",
+      "hashPath": "volo.abp.users.domain.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Users.Domain.Shared/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YG/cT4rCatEkMexEYqr3tEJXt2WYx7Mc5i0X8nbwip+yfqR8NoCCHuhJm38BpolylOXRsc1/8taUbxNDLXDrwQ==",
+      "path": "volo.abp.users.domain.shared/5.1.2",
+      "hashPath": "volo.abp.users.domain.shared.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Validation/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hg6rnMcWgtfvhFOHdiv4hrEmkHcACd+LP3kN6pFApNJKCTXC3eD0if41U8xM5QYerJYELLNCfmPkeQUjfvwT7A==",
+      "path": "volo.abp.validation/5.1.2",
+      "hashPath": "volo.abp.validation.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.Validation.Abstractions/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U2edtc8WGRGMglPoNyUFq4IG/1j3YKdkDj4Y0fvsf5m9pfWt226pv9tzK3bFO1JZw/5ITgfaPzvlQanyYA52fA==",
+      "path": "volo.abp.validation.abstractions/5.1.2",
+      "hashPath": "volo.abp.validation.abstractions.5.1.2.nupkg.sha512"
+    },
+    "Volo.Abp.VirtualFileSystem/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKwnQU9Rf21L0LeEPyy2rjCK4zucwsaqNfltBP/2W1fotSqrHsyKFg6IQN7N5jzXCHNsxXqDHkQa/USH2UERPA==",
+      "path": "volo.abp.virtualfilesystem/5.1.2",
+      "hashPath": "volo.abp.virtualfilesystem.5.1.2.nupkg.sha512"
+    },
+    "Daniel_technology.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

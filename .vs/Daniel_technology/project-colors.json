@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "554ad327-6dba-4f8f-96f8-81ce7a0c863f": {
+      "ProjectGuid": "554ad327-6dba-4f8f-96f8-81ce7a0c863f",
+      "DisplayName": "Daniel_technology.Domain",
+      "ColorIndex": 0
+    },
+    "aa94d832-1ccc-4715-95a9-a483f23a1a5d": {
+      "ProjectGuid": "aa94d832-1ccc-4715-95a9-a483f23a1a5d",
+      "DisplayName": "Daniel_technology.DbMigrator",
+      "ColorIndex": 1
+    },
+    "c956dd76-69c8-4a9c-83ea-d17df83340fd": {
+      "ProjectGuid": "c956dd76-69c8-4a9c-83ea-d17df83340fd",
+      "DisplayName": "Daniel_technology.EntityFrameworkCore",
+      "ColorIndex": 2
+    },
+    "748584b1-ba69-4f6a-81aa-f4bde6bce29d": {
+      "ProjectGuid": "748584b1-ba69-4f6a-81aa-f4bde6bce29d",
+      "DisplayName": "Daniel_technology.HttpApi.Host",
+      "ColorIndex": 3
+    },
+    "42f719ed-8413-4895-b5b4-5ab56079bc66": {
+      "ProjectGuid": "42f719ed-8413-4895-b5b4-5ab56079bc66",
+      "DisplayName": "Daniel_technology.Domain.Shared",
+      "ColorIndex": 4
+    },
+    "520659c8-c734-4298-a3da-b539db9dfc0b": {
+      "ProjectGuid": "520659c8-c734-4298-a3da-b539db9dfc0b",
+      "DisplayName": "Daniel_technology.Application.Contracts",
+      "ColorIndex": 5
+    },
+    "1a94a50e-06dc-43c1-80b5-b662820ec3eb": {
+      "ProjectGuid": "1a94a50e-06dc-43c1-80b5-b662820ec3eb",
+      "DisplayName": "Daniel_technology.Application",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
