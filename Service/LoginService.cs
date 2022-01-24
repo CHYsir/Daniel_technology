@@ -88,6 +88,50 @@ namespace Daniel_technology.Service
             return result;
         }
 
+        //删除
+        [HttpPost, Route("deleteuser")]
+        public async Task<ServiceResult> DeleteUser(int id)
+        {
+            var result = new ServiceResult();
+            if(id>=1)
+            {
+                await _repository.DeleteAsync(id);
+                result.IsSuccess("删除成功！");
+            }
+            else
+            {
+                result.IsFailed("删除失败");
+            }
+            return result;
+        }
+
+        //修改
+        [HttpPost, Route("updateuser")]
+        public async Task<ServiceResult<string>> UpdateUser(int id, UserDto model)
+        {
+            var result = new ServiceResult<string>();
+
+            var usermodel = await _repository.GetAsync(id);
+            if (usermodel == null)
+            {
+                result.IsFailed("数据不存在");
+                return result;
+            }
+
+            usermodel.UserName = model.UserName;
+            usermodel.UserPwd = model.UserPwd;
+            usermodel.Detailed = model.Detailed;
+            usermodel.LgoinStatus = model.LgoinStatus;
+            usermodel.Sex = model.Sex;
+            usermodel.UserAccount = model.UserAccount;
+            usermodel.UserPhone = model.UserPhone;
+
+            await _repository.UpdateAsync(usermodel);
+
+            result.IsSuccess("更新成功");
+            return result;
+        }
+
         #endregion
 
         #region 登录
